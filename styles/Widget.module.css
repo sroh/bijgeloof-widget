@@ -1,0 +1,48 @@
+.widget {
+    width: 400px;
+    color: white;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetHeader {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.widgetBody {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.widgetFooter {
+    width: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: auto;
+}
+
+.foto {
+    width: 110px;
+    height: 110px;
+    flex-grow: 1;
+}
+
+.feed {
+    width: 110px;
+    height: 110px;
+    flex-grow: 1;
+}
+
+.water {
+    width: 110px;
+    height: 110px;
+    flex-grow: 1;
+}
